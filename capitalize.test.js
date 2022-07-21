@@ -1,5 +1,5 @@
-const capitalize = require("./capitalize");
+const capitalize = require('./capitalize');
 
-test("If first character of string  capitalized", () => {
-  expect(capitalize("jumbo")).toBe("Jumbo");
+test('If first character of string  capitalized', () => {
+  expect(capitalize('jumbo')).toBe('Jumbo');
 });

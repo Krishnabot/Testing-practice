@@ -1,19 +1,11 @@
 class Calculator {
-  static addition = (a, b) => {
-    return a + b;
-  };
+  static addition = (a, b) => a + b;
 
-  static substraction = (a, b) => {
-    return a - b;
-  };
+  static substraction = (a, b) => a - b;
 
-  static multiplication = (a, b) => {
-    return a * b;
-  };
+  static multiplication = (a, b) => a * b;
 
-  static division = (a, b) => {
-    return a / b;
-  };
+  static division = (a, b) => a / b;
 }
 
 module.exports = Calculator;
